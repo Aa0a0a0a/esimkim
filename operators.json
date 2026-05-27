@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "title": "giffgaff转eSIM工具",
+        "summary": "新手必备giffgaff转eSIM工具",
+        "country": "🇬🇧 英国",
+        "carrier": "giffgaff",
+        "carrier_slug": "giffgaff",
+        "logo": "\/giffgaff\/images\/logo.png",
+        "url": "\/giffgaff\/",
+        "sort_order": 20,
+        "created_at": "2026-05-27 14:12:39",
+        "updated_at": "2026-05-27 14:18:00"
+    }
+]
