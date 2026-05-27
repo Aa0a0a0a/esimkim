@@ -1,12 +1,12 @@
 {
     "site_title": "全球 eSIM 攻略",
     "site_description": "每天24小时更新全球 eSIM 攻略",
-    "site_logo": "",
+    "site_logo": "\/assets\/settings\/logo.jpg",
     "footer_text": "每天更新全球 eSIM 攻略",
     "carousel_interval": 5000,
     "ads": {
         "header": [],
         "footer": []
     },
-    "updated_at": "2026-05-27 22:15:12"
+    "updated_at": "2026-05-27 23:58:00"
 }
