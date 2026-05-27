@@ -15,6 +15,7 @@ async function boot() {
     }
     document.getElementById('footer-text').textContent = settings.footer_text || '';
     if (settings.site_logo || settings.site_icon) setIcon(settings.site_logo || settings.site_icon);
+    setHeaderButton(settings.header_button_text, settings.header_button_url);
     window.carouselInterval = Math.max(1500, parseInt(settings.carousel_interval || '5000', 10));
   } catch (e) {}
   await loadCountries();
@@ -31,6 +32,18 @@ function setIcon(src) {
   link.rel = 'icon';
   link.href = cacheUrl(src);
   document.head.appendChild(link);
+}
+
+function setHeaderButton(text, url) {
+  const btn = document.getElementById('header-btn');
+  if (!btn) return;
+  if (text && url) {
+    btn.textContent = text;
+    btn.href = url;
+    btn.style.display = 'inline-flex';
+  } else {
+    btn.style.display = 'none';
+  }
 }
 
 async function loadCountries() {
