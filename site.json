@@ -5,8 +5,16 @@
     "footer_text": "每天更新全球 eSIM 攻略",
     "carousel_interval": 5000,
     "ads": {
-        "header": [],
+        "header": [
+            {
+                "position": "header",
+                "type": "image",
+                "title": "",
+                "content": "",
+                "link": ""
+            }
+        ],
         "footer": []
     },
-    "updated_at": "2026-05-27 23:58:00"
+    "updated_at": "2026-05-28 00:07:13"
 }
