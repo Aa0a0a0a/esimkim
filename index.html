@@ -6,11 +6,23 @@
   <meta name="description" content="">
   <title>eSIM</title>
   <link id="favicon" rel="icon" href="">
-  <link rel="stylesheet" href="/css/style.css?v=18">
+  <script>
+    (function () {
+      var t = Date.now();
+      var head = document.head;
+      function css(href) { var l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href + '?t=' + t; head.appendChild(l); }
+      function js(src, cb) { var s = document.createElement('script'); s.src = src + '?t=' + t; s.onload = cb || null; head.appendChild(s); }
+      css('/css/style.css');
+      js('/js/api.js', function () { js('/js/index.js'); });
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav"><a class="brand" href="/"><span class="logo"><img id="logo-img" alt=""><span id="logo-fallback">e</span></span><span id="site-title"></span></a></div>
+    <div class="container nav">
+      <a class="brand" href="/"><span class="logo"><img id="logo-img" alt=""><span id="logo-fallback">e</span></span><span id="site-title"></span></a>
+      <a id="header-btn" class="header-btn" target="_blank" rel="noopener noreferrer" style="display:none"></a>
+    </div>
   </header>
   <section class="hero">
     <div class="container hero-grid">
@@ -24,7 +36,5 @@
     <div id="empty" class="empty" style="display:none">暂无文章，请先登录后台发布内容。</div>
   </main>
   <footer class="footer" id="footer-text"></footer>
-  <script src="/js/api.js?v=18"></script>
-  <script src="/js/index.js?v=18"></script>
 </body>
 </html>
