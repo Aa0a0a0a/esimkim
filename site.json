@@ -1,8 +1,8 @@
 {
     "site_title": "全球 eSIM 攻略",
-    "site_description": "每天24小时更新全球 eSIM 攻略",
+    "site_description": "每天24小时不间断发布全球 200+ 个国家和地区的eSIM攻略",
     "site_logo": "\/assets\/settings\/logo.jpg",
-    "footer_text": "本站资源托管由 Github 提供计算服务",
+    "footer_text": "本站资源由 Github 提供托管服务",
     "header_button_text": "",
     "header_button_url": "",
     "carousel_interval": 5000,
@@ -18,5 +18,5 @@
             }
         ]
     },
-    "updated_at": "2026-05-28 07:35:59"
+    "updated_at": "2026-05-28 07:46:49"
 }
