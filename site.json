@@ -3,8 +3,8 @@
     "site_description": "每天 24 小时不间断发布 全球 200+ 个国家和地区的 eSIM 攻略",
     "site_logo": "\/assets\/settings\/logo.jpg",
     "footer_text": "本站资源由 Github 提供托管服务",
-    "header_button_text": "",
-    "header_button_url": "",
+    "header_button_text": "加入Telegram群组",
+    "header_button_url": "https:\/\/t.me\/esim_kim",
     "carousel_interval": 5000,
     "ads": {
         "header": [],
@@ -18,5 +18,5 @@
             }
         ]
     },
-    "updated_at": "2026-05-28 07:47:40"
+    "updated_at": "2026-05-28 08:20:11"
 }
